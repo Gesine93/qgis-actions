@@ -8,7 +8,6 @@ These scripts create one or many relations between QGIS layers using a primary k
 - Defines a QgsRelation between a parent (referenced) and one or many child (referencing) layer(s)  
 - Validates and registers the relation(s) in the QGIS project  
 - Updates the edit form configuration via XML to ensure the relation widget is properly displayed  
-- Triggers a repaint to apply visual updates  
 
 ## Use Case
 Useful for automating the setup of relational forms in QGIS projects, especially when two or more layers that reference each other need to be loaded into QGIS regularly (e.g. when using the QGIS Plugin Map Library).
